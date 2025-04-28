@@ -1293,6 +1293,14 @@ video {
     padding: 3rem;
   }
 
+  .md\:pr-4 {
+    padding-right: 1rem;
+  }
+
+  .md\:pr-12 {
+    padding-right: 3rem;
+  }
+
   .md\:text-\[5vh\] {
     font-size: 5vh;
   }
