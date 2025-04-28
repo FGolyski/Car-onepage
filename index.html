@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="pl" class="scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Tailwind Starter</title>
+		<link
+			href="./output.css"
+			rel="stylesheet" />
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Special+Gothic+Expanded+One&display=swap"
+			rel="stylesheet" />
+		<!-- Slick CSS -->
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+		<script
+			type="text/javascript"
+			src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	</head>
+	<body class="bg-gray-900 font-gothic ">
+<nav class="relative w-full font-bold text-lg text-white p-4 md:sticky md:top-0 z-20">
+  <!-- Lista nawigacji -->
+  <ul class="grid grid-cols-2 grid-rows-2 gap-4 w-full relative text-center md:flex md:justify-center z-30">
+    <li class="hover:text-blue-500">
+      <a href="#home">HOME</a>
+    </li>
+    <li class="hover:text-blue-500">
+      <a href="#about">ABOUT</a>
+    </li>
+    <li class="hover:text-blue-500 col-span-2">
+      <a href="#contact">CONTACT</a>
+    </li>
+  </ul>
+  
+  <!-- Tło nawigacji -->
+  <div style="clip-path: polygon(10% 100%, 90% 100%, 100% 0, 0 0);" class="absolute top-0 left-0 w-full h-full bg-gray-800 z-10"></div>
+</nav>
+
+<main class="pt-4 text-white">
+
+			<article id="home" class="md:scroll-mt-[3.5Rem] my-12 p-4 md:p-0">
+  	
+	<div class="relative h-[30vh] md:h-full overflow-hidden">
+
+    	<div class="slider h-full w-full z-0">
+
+      		<div class="w-full h-auto">
+        	<img src="./img/car1.jpg" alt="Car 1" class="w-full h-full object-cover" />
+      		</div>
+
+      	<div class="w-full h-full">
+        <img src="./img/car2.jpg" alt="Car 2" class="w-full h-full object-cover" />
+      	</div>
+
+      	<div class="w-full h-full">
+        <img src="./img/car3.jpg" alt="Car 3" class="w-full h-full object-cover" />
+      	</div>
+
+    	</div>
+
+    	<div
+      	class="absolute top-[-1px] left-0 h-[6vh] md:h-[10vh] w-full bg-gray-900 p-2 z-10 flex items-center"
+      	style="clip-path: polygon(0 0, 70% 0, 55% 100%, 0 100%)">
+
+    	<h1 class="text-blue-800 text-xl pl-2 font-bold  md:text-[5vh] content-center  ">LUXURY CARS</h1>
+    	</div>
+
+  	</div>
+			</article>
+
+			<article class="md:grid md:grid-cols-5 md:gap-2">
+			<div class="md:flex md:flex-col md:items-center md:my-auto md:grid-cols-1 hidden animate-slideInRight ">
+				<h1 class="text-center text-3xl font-bold pt-4 text-blue-600">Dlaczego musisz wybrać</h1>
+				<h1 class="text-center text-4xl font-bold pt-4 text-white">Car-Com</h1>
+			</div>
+
+			<div class=" md:mx-auto  h-auto my-32 p-4 bg-gray-800 md:col-span-3 md:w-full  ">
+				<h1 class="text-center text-2xl md:text-[5vh] md:mb-12 font-bold pt-4">
+					Dlaczego musisz wybrać
+					<span class="md:text-[6vh] text-3xl text-blue-600">NAS?</span>
+				</h1>
+				<div class="grid grid-cols-2 gap-4 p-2">
+					<div class="bg-blue-500/10 h-full w-full rounded-lg">
+						<ul class="text-xs pr-2 animate-slideInLeft md:animate-none">
+							<li class="py-2">
+								<div class="flex items-start gap-2">
+									<svg
+										class="listIcon"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+										stroke-width="2">
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											d="M5 13l4 4L19 7" />
+									</svg>
+									<p class="listText">
+										Setki zadowolonych klientów
+									</p>
+								</div>
+							</li>
+
+							<li class="py-2">
+								<div class="flex items-start gap-2">
+									<svg
+										class="listIcon"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+										stroke-width="2">
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											d="M5 13l4 4L19 7" />
+									</svg>
+									<p class="listText">
+										Setki zadowolonych klientów
+									</p>
+								</div>
+							</li>
+
+							<li class="py-2">
+								<div class="flex items-start gap-2">
+									<svg
+										class="listIcon"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+										stroke-width="2">
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											d="M5 13l4 4L19 7" />
+									</svg>
+									<p class="listText">
+										Setki zadowolonych klientów
+									</p>
+								</div>
+							</li>
+							<li class="py-2">
+								<div class="flex items-start gap-2">
+									<svg
+										class="listIcon"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+										stroke-width="2">
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											d="M5 13l4 4L19 7" />
+									</svg>
+									<p class="listText">
+										Setki zadowolonych klientów
+									</p>
+								</div>
+							</li>
+							<li class="py-2">
+								<div class="flex items-start gap-2">
+									<svg
+										class="listIcon"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+										stroke-width="2">
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											d="M5 13l4 4L19 7" />
+									</svg>
+									<p class="listText">
+										Setki zadowolonych klientów
+									</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="bg-blue-500/10 h-full w-full rounded-lg">
+												<ul class="text-xs pr-2 animate-slideInRight md:animate-none">
+							<li class="py-2">
+								<div class="flex items-start gap-2">
+									<svg
+										class="listIcon"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+										stroke-width="2">
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											d="M5 13l4 4L19 7" />
+									</svg>
+									<p class="listText">
+										Setki zadowolonych klientów
+									</p>
+								</div>
+							</li>
+
+							<li class="py-2">
+								<div class="flex items-start gap-2">
+									<svg
+										class="listIcon"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+										stroke-width="2">
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											d="M5 13l4 4L19 7" />
+									</svg>
+									<p class="listText">
+										Setki zadowolonych klientów
+									</p>
+								</div>
+							</li>
+
+							<li class="py-2">
+								<div class="flex items-start gap-2">
+									<svg
+										class="listIcon"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+										stroke-width="2">
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											d="M5 13l4 4L19 7" />
+									</svg>
+									<p class="listText">
+										Setki zadowolonych klientów
+									</p>
+								</div>
+							</li>
+							<li class="py-2">
+								<div class="flex items-start gap-2">
+									<svg
+										class="listIcon"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+										stroke-width="2">
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											d="M5 13l4 4L19 7" />
+									</svg>
+									<p class="listText">
+										Setki zadowolonych klientów
+									</p>
+								</div>
+							</li>
+							<li class="py-2">
+								<div class="flex items-start gap-2">
+									<svg
+										class="listIcon"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+										stroke-width="2">
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											d="M5 13l4 4L19 7" />
+									</svg>
+									<p class="listText">
+										Setki zadowolonych klientów
+									</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="bg-blue-500/10 rounded-lg p-2">
+					<h1 class="text-center text-white text-2xl font-bold">Postaw na</h1>
+					<h1
+						class="text-center text-blue-600 text-4xl font-bold animate animate-bounce">
+						CAR-COM
+					</h1>
+				</div>
+			</div>
+
+			<div class="md:flex md:flex-col md:items-center md:my-auto md:grid-cols-1 hidden animate-slideInLeft">
+				<h1 class="text-center text-3xl font-bold pt-4 text-blue-600">Dlaczego musisz wybrać</h1>
+				<h1 class="text-center text-4xl font-bold pt-4 text-white">Car-Com</h1>
+			</div>
+
+			</article>
+
+			<article class="md:hidden h-auto my-32 p-4">
+				<div class="flex w-full h-auto items-center">
+					<svg
+						class="h-8 w-8 mr-2 animate-pulse-slow"
+						fill="rgb(59 130 246)"
+						viewBox="0 0 16 16"
+						xmlns="http://www.w3.org/2000/svg">
+						<g
+							id="SVGRepo_bgCarrier"
+							stroke-width="0"></g>
+						<g
+							id="SVGRepo_tracerCarrier"
+							stroke-linecap="round"
+							stroke-linejoin="round"></g>
+						<g id="SVGRepo_iconCarrier">
+							<path
+								d="M4 16H0V6h4V0h6v4h6v12H4zM6 2v12h8v-1h-2v-2h2v-1h-2V8h2V6H8V2H6zM2 8v6h2V8H2z"
+								fill-rule="evenodd"></path>
+						</g>
+					</svg>
+					<p class="pt-2 pl-5 text-lg">Setki zadowolonych klientów</p>
+				</div>
+				<div class="flex w-full h-auto mt-12 justify-end">
+					<p class="mr-5 text-lg pt-2">Lata doświadczenia</p>
+					<svg
+						class="h-8 w-8 mr-2 animate-pulse-slow"
+						fill="rgb(59 130 246)"
+						viewBox="0 0 16 16"
+						xmlns="http://www.w3.org/2000/svg">
+						<g
+							id="SVGRepo_bgCarrier"
+							stroke-width="0"></g>
+						<g
+							id="SVGRepo_tracerCarrier"
+							stroke-linecap="round"
+							stroke-linejoin="round"></g>
+						<g id="SVGRepo_iconCarrier">
+							<path
+								d="M4 16H0V6h4V0h6v4h6v12H4zM6 2v12h8v-1h-2v-2h2v-1h-2V8h2V6H8V2H6zM2 8v6h2V8H2z"
+								fill-rule="evenodd"></path>
+						</g>
+					</svg>
+				</div>
+				<div class="flex w-full h-auto mt-12 items-center">
+					<svg
+						class="h-8 w-8 mr-2 animate-pulse"
+						fill="rgb(59 130 246)"
+						viewBox="0 0 16 16"
+						xmlns="http://www.w3.org/2000/svg">
+						<g
+							id="SVGRepo_bgCarrier"
+							stroke-width="0"></g>
+						<g
+							id="SVGRepo_tracerCarrier"
+							stroke-linecap="round"
+							stroke-linejoin="round"></g>
+						<g id="SVGRepo_iconCarrier">
+							<path
+								d="M4 16H0V6h4V0h6v4h6v12H4zM6 2v12h8v-1h-2v-2h2v-1h-2V8h2V6H8V2H6zM2 8v6h2V8H2z"
+								fill-rule="evenodd"></path>
+						</g>
+					</svg>
+					<p class="pt-2 pl-5 text-lg">Setki zadowolonych klientów</p>
+				</div>
+
+				</div>
+			</article>
+
+			<article id="about" class="scroll-mt-[7rem] h-auto my-32 p-2 bg-gray-800">
+				<h1 class="text-center text-3xl font-bold pt-4 text-blue-600">O nas</h1>
+				<img
+					src="./img/car4.png"
+					alt="Car 4"
+					class="w-1/4 h-auto my-6 object-cover mx-auto rounded-full border-blue-600 border-4" />
+				<div class="flex p-2">
+					<p class="text-sm text-justify break-all mr-2">
+						Car-Com to firma zajmująca się wynajmem luksusowych samochodów.
+						Nasza oferta obejmuje szeroki wybór pojazdów, które spełnią
+						oczekiwania nawet najbardziej wymagających klientów. Oferujemy
+						wynajem krótko i długoterminowy, a także możliwość wynajmu samochodu
+						z kierowcą.
+					</p>
+					<p class="text-sm text-justify break-all ml-2">
+						Nasze pojazdy są regularnie serwisowane i utrzymywane w doskonałym
+						stanie technicznym, aby zapewnić maksymalne bezpieczeństwo i komfort
+						podróży. Wybierając Car-Com, masz pewność, że otrzymasz samochód
+						najwyższej jakości w konkurencyjnej cenie.
+					</p>
+				</div>
+			</article>
+
+			<article id="contact" class=" h-auto mt-32 mb-12 p-2">
+  			<h1 class="text-center text-3xl font-bold pt-4 text-white animate-bounce-slow">Skontaktuj się z nami<span class="text-blue-500">!</span></h1>
+
+			<div class="justify-center flex flex-col items-center">
+  			<form class="flex flex-col items-center w-3/4 border-blue-500 text-white border-2 mt-4 p-4">
+	<input
+	  type="text"
+	  placeholder="Imię i nazwisko"
+	  class="w-3/4 p-2 mb-4 border bg-gray-800 border-blue-500 rounded" />
+	<input
+	  type="email"
+	  placeholder="Email"
+	  class="w-3/4 p-2 mb-4 bg-gray-800 border border-blue-500 rounded" />
+	<textarea
+	  placeholder="Wiadomość"
+	  class="w-3/4 p-2 mb-4 border bg-gray-800 border-blue-500 rounded"></textarea>
+	<button
+	  type="submit"
+	  class="bg-blue-500 text-white py-2 px-4 rounded">
+	  Wyślij
+	</button>
+  			</form>
+ 			</div>	
+
+  			<div class="flex justify-center gap-12 p-4 mt-12 flex-wrap">
+    		<!-- Instagram -->
+    		<div class="w-auto h-auto flex-shrink-0">
+      		<svg class="w-20 h-20 fill-blue-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+        	<path d="M 16 3 C 8.8324839 3 3 8.8324839 3 16 L 3 34 C 3 41.167516 8.8324839 47 16 47 L 34 47 C 41.167516 47 47 41.167516 47 34 L 47 16 C 47 8.8324839 41.167516 3 34 3 L 16 3 z M 16 5 L 34 5 C 40.086484 5 45 9.9135161 45 16 L 45 34 C 45 40.086484 40.086484 45 34 45 L 16 45 C 9.9135161 45 5 40.086484 5 34 L 5 16 C 5 9.9135161 9.9135161 5 16 5 z M 37 11 A 2 2 0 0 0 35 13 A 2 2 0 0 0 37 15 A 2 2 0 0 0 39 13 A 2 2 0 0 0 37 11 z M 25 14 C 18.936712 14 14 18.936712 14 25 C 14 31.063288 18.936712 36 25 36 C 31.063288 36 36 31.063288 36 25 C 36 18.936712 31.063288 14 25 14 z M 25 16 C 29.982407 16 34 20.017593 34 25 C 34 29.982407 29.982407 34 25 34 C 20.017593 34 16 29.982407 16 25 C 16 20.017593 20.017593 16 25 16 z"></path>
+      		</svg>
+    		</div>
+
+    		<!-- Facebook -->
+    		<div class="w-auto h-auto flex-shrink-0">
+      		<svg class="w-20 h-20 fill-blue-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+        	<path d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"></path>
+      		</svg>
+    		</div>
+
+			<!-- Telefon -->
+			<div class="w-auto h-auto flex-shrink-0">
+			<svg class="w-20 h-20 fill-blue-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+			<path d="M20.629 5h-9.257a1.6 1.6 0 0 0-1.601 1.603V25.4a1.6 1.6 0 0 0 1.601 1.601h9.257c.883 0 1.6-.718 1.6-1.601V6.603c0-.885-.717-1.603-1.6-1.603zm-6.247 1.023h3.302v.768h-3.302v-.768zm1.619 19.395a1.024 1.024 0 0 1-1.023-1.021 1.023 1.023 0 0 1 2.044 0c-.001.494-.46 1.021-1.021 1.021zm5.028-3.501H10.971V7.704h10.058v14.213z"/>
+			</svg>
+			</div>
+
+			</div>
+  
+			</article>
+
+		</main>
+					<footer class="h-auto p-6  bg-gray-800">
+				<div class="flex justify-center">
+					<p class="text-sm text-center text-white">
+						&copy; 2023 Car-Com. All rights reserved.
+					</p>
+					
+				</div>
+			</footer>
+		<script>
+			$(document).ready(function () {
+				$(".slider").slick({
+					autoplay: true,
+					autoplaySpeed: 5000,
+					dots: false,
+					arrows: false,
+					fade: true,
+				});
+			});
+		</script>
+	</body>
+</html>
