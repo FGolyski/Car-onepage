@@ -56,7 +56,7 @@
 
 <main class="pt-4 text-white">
 
-			<article id="home" class="md:scroll-mt-[3.5Rem] my-12 p-4 md:p-0">
+			<article id="home" class="md:scroll-mt-[3.5Rem] my-12 ">
   	
 	<div class="relative h-[30vh] md:h-full overflow-hidden">
 
@@ -86,7 +86,7 @@
   	</div>
 			</article>
 
-			<article class="md:grid md:grid-cols-5 md:gap-2">
+			<article class="md:grid md:grid-cols-5 md:gap-2 p-2">
 			<div class="md:flex md:flex-col md:items-center md:my-auto md:grid-cols-1 hidden animate-slideInRight ">
 				<h1 class="text-center text-3xl font-bold pt-4 text-blue-600">Dlaczego musisz wybrać</h1>
 				<h1 class="text-center text-4xl font-bold pt-4 text-white">Car-Com</h1>
@@ -307,7 +307,7 @@
 
 			</article>
 
-			<article class="md:hidden h-auto my-32 p-4">
+			<article class="md:hidden h-auto mb-32 p-4">
 				<div class="flex w-full h-auto items-center">
 					<svg
 						class="h-8 w-8 mr-2 animate-pulse-slow"
@@ -375,21 +375,21 @@
 				</div>
 			</article>
 
-			<article id="about" class="scroll-mt-[7rem] h-auto my-32 p-2 bg-gray-800">
-				<h1 class="text-center text-3xl font-bold pt-4 text-blue-600">O nas</h1>
+			<article id="about" class="scroll-mt-[7rem] h-auto my-32 p-2 md:p-12 bg-gray-800 md:grid-rows-4 md:grid md:grid-cols-3 ">
+				<h1 class="text-center text-3xl font-bold pt-4 text-blue-600 md:col-span-3 md:text-[6vh]">O nas</h1>
 				<img
 					src="./img/car4.png"
 					alt="Car 4"
-					class="w-1/4 h-auto my-6 object-cover mx-auto rounded-full border-blue-600 border-4" />
-				<div class="flex p-2">
-					<p class="text-sm text-justify break-all mr-2">
+					class="w-1/4 h-auto my-6 object-cover mx-auto rounded-full  md:w-1/2  border-blue-600 border-4 md:row-span-3 md:row-start-2" />
+				<div class="flex p-2 md:w-full md:mx-auto md:flex-col md:gap-4 md:col-span-2 md:row-span-3 md:row-start-2">
+					<p class="text-sm text-justify md:text-base break-all mr-2 md:m-0 ">
 						Car-Com to firma zajmująca się wynajmem luksusowych samochodów.
 						Nasza oferta obejmuje szeroki wybór pojazdów, które spełnią
 						oczekiwania nawet najbardziej wymagających klientów. Oferujemy
 						wynajem krótko i długoterminowy, a także możliwość wynajmu samochodu
 						z kierowcą.
 					</p>
-					<p class="text-sm text-justify break-all ml-2">
+					<p class="text-sm text-justify md:text-base break-all ml-2 md:m-0">
 						Nasze pojazdy są regularnie serwisowane i utrzymywane w doskonałym
 						stanie technicznym, aby zapewnić maksymalne bezpieczeństwo i komfort
 						podróży. Wybierając Car-Com, masz pewność, że otrzymasz samochód
@@ -402,7 +402,7 @@
   			<h1 class="text-center text-3xl font-bold pt-4 text-white animate-bounce-slow">Skontaktuj się z nami<span class="text-blue-500">!</span></h1>
 
 			<div class="justify-center flex flex-col items-center">
-  			<form class="flex flex-col items-center w-3/4 border-blue-500 text-white border-2 mt-4 p-4">
+  			<form class="flex flex-col items-center w-3/4 border-blue-500 text-white md:w-1/4 border-2 mt-4 p-4">
 	<input
 	  type="text"
 	  placeholder="Imię i nazwisko"
